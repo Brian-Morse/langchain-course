@@ -57,3 +57,7 @@ Mike led quality, regulatory, and manufacturing at leading multinationals and gr
     chain = summary_prompt_template | llm
     response = chain.invoke({"information": information})
     print(response.content)
+
+
+if __name__ == "__main__":
+    main()
